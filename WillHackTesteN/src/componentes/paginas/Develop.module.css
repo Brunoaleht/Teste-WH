@@ -1,0 +1,50 @@
+h1{
+    margin-bottom: 2em;
+}
+h3{
+    font-size: 1.5em;
+    margin-bottom: 0.85em;
+}
+.corpo{
+    width: 100%;
+}
+.rosa{
+    color: rgb(235, 72, 127);
+}
+.cabeca{
+    display: flex;
+    justify-content: space-around;
+
+}
+.cabeca .praf1{
+    width: 500px;
+    margin: 0 1em 1em 1em;
+    text-align: justify;
+}
+.cabeca .praf2{
+    width: 500px;
+    margin: 0 1em 1em 0;
+    text-align: justify;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    margin-top: 1.5em;
+}
+.conteudo h1{
+    text-align: justify;
+}
+.conteudo p{
+    width: 500px;
+    text-align: justify;
+    margin-bottom: 0.75em;
+}
+.imagem{
+    display: flex;
+    flex-direction: column;
+}
+.scroll{
+    height: 300px;
+    width: 250px;
+}

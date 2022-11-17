@@ -1,0 +1,71 @@
+div{
+    text-align: center;
+}
+.corpo{
+    width: 100%;
+}
+.homeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+    justify-content: center;
+}
+.homeContainer h1{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+.homeContainer p{
+    text-align: center;
+    font-size: 0.85em;
+    width: 600px;
+    margin-top: 20px;
+}
+.azul{
+    color: blue;
+}
+.verde{
+    color: green;
+}
+.rosa{
+    color: rgb(235, 23, 94);
+}
+.salmo{
+    color: salmon;
+}
+.amarelo{
+    color: gold;
+}
+
+.homeContainer img{
+    width: 200px;
+    margin: 2em 0;
+}
+.homeContainer .list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.homeContainer .item{
+    margin-right: 1em;
+}
+.homeContainer .item a{
+    text-decoration: none;
+}
+.scroll{
+    height: 300px;
+    width: 82px;
+}
+.card {
+    border: solid 2px #666;
+    border-radius: 5px;
+    color: #666;
+    padding: 5px;
+    margin-top: 15em;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}

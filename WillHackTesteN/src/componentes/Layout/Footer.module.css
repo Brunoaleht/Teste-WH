@@ -1,0 +1,59 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.socialLista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.socialLista li{
+    margin: 0 1em;
+}
+.socialLista li:hover{
+    color: #ffbb33;
+}
+.socialLista svg{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.copy{
+    margin-top: 2em;
+}
+.copy span{
+    font-weight: bold;
+    color: #ffbb33;
+}
+.linha{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.lista{
+    list-style: none;
+    align-items: center;
+}
+.lista li{
+    margin: 4px;
+    text-align: justify;
+}
+.lista li:first-child{
+    font-size: 20px;
+}
+.lista li:first-child:hover{
+    color: #fff;
+    cursor: default;
+}
+.lista li:hover{
+    color: #ffbb33;
+    cursor: pointer;
+}
+.final{
+    background-color: #111;
+}
+.final .imagem{
+    text-align: start;
+}

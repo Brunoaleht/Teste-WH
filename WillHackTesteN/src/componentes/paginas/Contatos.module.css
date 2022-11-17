@@ -1,0 +1,51 @@
+.corpo{
+    width: 100%;
+}
+.corpo h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.corpo p{
+    margin-bottom: 3em;
+}
+.corpo hr{
+    width: 1200;
+    margin-bottom: 1em;
+}
+.corpo .button{
+    border: solid 1px rgb(25, 182, 25);
+    color: #666;
+    width: 900px;
+    padding: 10px;
+    background-color: black;
+}
+.corpo .button:hover{
+    color: rgb(25, 182, 25);
+}
+.list ul{
+    text-decoration: none;
+}
+.row {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+
+}
+.card {
+    border: solid 2px #666;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 900px;
+    transition: all 0.3s ease-out;
+    color: #fff;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+

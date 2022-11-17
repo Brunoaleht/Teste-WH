@@ -1,0 +1,46 @@
+img{
+    margin-bottom: 4em;
+}
+.azul{
+    color: blue;
+}
+.verde{
+    color: green;
+}
+.rosa{
+    color: rgb(235, 23, 94);
+}
+.salmo{
+    color: salmon;
+}
+.amarelo{
+    color: gold;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.corpo .list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.item{
+    margin-right: 1em;
+}
+.item a{
+    text-decoration: none;
+}
+
+.scroll{
+    height: 300px;
+    width: 250px;
+}

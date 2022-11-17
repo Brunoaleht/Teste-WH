@@ -1,0 +1,16 @@
+
+.corpo{
+    width: 1200px;
+}
+.corpo h1{
+    font-size: 3.5em;
+    margin-bottom: 1em;
+}
+.corpo p{
+    margin-bottom: 2em;
+}
+
+.imagem{
+    width: 1200px;
+    margin-bottom: 90px;
+}

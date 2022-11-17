@@ -1,0 +1,30 @@
+.naveBar{
+    display: flex;
+    justify-content: center;
+    background-color: #000; 
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: none;
+}
+
+.item{
+    margin-right: 1em;
+}
+.item1 a{
+    cursor: pointer;
+    color: #000;
+}
+.item a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.item a:hover{
+    color: #ffbb33;
+}
+.imagem{
+    margin-bottom: 0;
+}

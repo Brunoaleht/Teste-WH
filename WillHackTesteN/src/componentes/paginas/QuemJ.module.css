@@ -1,0 +1,41 @@
+.corpo h1{
+    font-size: 3.5em;
+}
+.corpo p{
+    margin-bottom: 3em;
+}
+.row {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+.card {
+    border: solid 2px #666;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(112, 110, 110, 0.664);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+.card h4{
+    text-align: justify;
+    font-size: 20px;
+}
+.card .imagem{
+    text-align: start;
+}
+.card p {
+    color: #666;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+

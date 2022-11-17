@@ -1,0 +1,37 @@
+h1{
+    margin-bottom: 2em;
+}
+h3{
+    font-size: 1.5em;
+    margin-bottom: 0.85em;
+}
+.cabeca{
+    display: flex;
+    justify-content: space-around;
+}
+.verde{
+    color: green;
+}
+.cabeca .praf{
+    width: 1000px;
+    margin: 0 1em 1em 1em;
+    text-align: justify;
+}
+.cabeca .pra p{
+    margin-bottom: none;
+    text-align: justify;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo p{
+    width: 500px;
+    text-align: justify;
+    margin-bottom: 0.75em;
+}
+.scroll{
+    height: 300px;
+    width: 250px;
+}
